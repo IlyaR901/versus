@@ -220,7 +220,10 @@ img{
         padding: 0;
     }
 }
-@media screen and (max-width: 1500px){    
+@media screen and (max-width: 1500px){ 
+    .main_container{
+        width: 100%;
+    }   
     .main_screen_text .text_title{
         width: 80%;
     }
@@ -245,7 +248,7 @@ img{
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px){
     .main_screen_header{
         position: relative;
     }
@@ -255,7 +258,7 @@ img{
         width: 30px;
         height: 20px;
         z-index: 3;
-        right: 15%;
+        right: 15px;
         top: 15px;
     }
     .header_burger span{
@@ -296,7 +299,7 @@ img{
     .header_nav{
         position: fixed;
         top: -104%;        
-        width: 75%;
+        width: 100%;
         height: 35%;
         background-color: #222222;
         transition: all 0.3s ease 0s;        
@@ -305,6 +308,10 @@ img{
     }
     .header_nav ul{
         display: block;
+        padding-top: 30px;
+    }
+    .header_nav ul a{           
+        font-size: 16px;
     }
     .header_nav.active{
         top: 0;
@@ -327,7 +334,7 @@ img{
         width: 100%;
     }
 }
-@media screen and (max-width: 500px){       
+@media screen and (max-width: 500px){         
     .text_title h1{
         font-size: 24px;
     }
