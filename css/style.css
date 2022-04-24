@@ -245,10 +245,7 @@ img{
     }
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape ) {
-    .main_screen {
-        height: 100vh;
-    }
+@media screen and (max-width: 767px) {
     .main_screen_header{
         position: relative;
     }
