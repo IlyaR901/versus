@@ -244,12 +244,11 @@ img{
         font-size: 38px;
     }
 }
-@media (orientation: landscape) {
+
+@media screen and (max-width: 767px) and (orientation: landscape ) {
     .main_screen {
         height: 100vh;
     }
-}
-@media screen and (max-width: 767px){
     .main_screen_header{
         position: relative;
     }
